@@ -92,8 +92,6 @@ def allitems():
 ```
 - Updating item from cart
 ```python
-
-```
 @app.route('/update/<id>',methods=['PUT'])
 def update_item(id):
     _id=id
@@ -109,7 +107,7 @@ def update_item(id):
     else:
 
         return not_found() 
-
+```
 - Deleting item from cart
 ```python
 @app.route('/delete/<id>',methods=['DELETE'])
