@@ -8,7 +8,7 @@ from flask import jsonify,request
 
 app=Flask(__name__)
 app.secret_key="secretkey"
-app.config['MONGO_URI'] = "mongodb+srv://Aditya:1234@cluster0.9dqsb.mongodb.net/test?retryWrites=true&w=majority"
+app.config['MONGO_URI'] = "mongodb+srv://Aditya:1234@cluster0.9dqsb.mongodb.net/carts?retryWrites=true&w=majority"
 mongo=PyMongo(app)
 
 
